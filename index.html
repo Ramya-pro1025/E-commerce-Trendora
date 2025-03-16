@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"> 
+
+</head>
+<body>
+    <!--Header Section-->
+    <section id="header">
+        <a href="#">
+            <img src="Image/logo.png" class="logo" alt="logoimage" width="150px" height="150px">
+        </a>
+    
+    <!--Navbar-->
+    <div>
+        <ul id="navbar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>    
+    </div>
+
+    <div id="mobile">
+        
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+    </div>
+    </section>
+
+    <!--Hero Section-->
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super Value Deals</h2>
+        <h1>On All Products</h1>
+        <button>Shop Now</button> 
+    </section>    
+    
+    <!--Offer Section-->
+    <div class="offer">
+        <p><b>Save more</b><em> With Coupons </em> <b> &amp; Up to 70% off!</b></p>
+        <i id="offer-close" class="fa-regular fa-square-xmark"></i>
+    </div>
+
+    <!--Brand Section-->
+    <section id="brands">
+        <h2>Our Brands</h2>
+        <div class="slider-container">
+            <button class="slider-button-left" onclick="scrollSlider(-1)">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <!-- Add more brand items as needed -->
+            <div class="brands-slider">
+                <div class="brands-item">
+                    <img src="Image/Icon/Adidas-logo.png" alt="adidas" width="100px" height="100px">
+                </div>
+                <div class="brands-item">
+                    <img src="./Image/Icon/arrow.png" alt="arrow" width="100px" height="100px">
+                </div>
+
+                <div class="brands-item">
+                    <img src="./Image/Icon/calvin-klein.png" alt="calvinklein" width="150px" height="100px">
+                 </div>
+
+                 <div class="brands-item">
+                    <img src="./Image/Icon/gucci-logo.png" alt="gucci" width="100px" height="100px">
+                </div>
+
+                <div class="brands-item">
+                    <img src="./Image/Icon/levis.png" alt="levis" width="150px" height="100px">
+                </div>    
+                 
+                <div class="brands-item">
+                    <img src="./Image/Icon/LP.png" alt="louisphilipe" width="150px" height="100px">
+                </div>
+
+                <div class="brands-item">
+                    <img src="./Image/Icon/van-heusen.png" alt="calvinklein" width="150px" height="100px">
+                </div>    
+            </div>
+            <button class="slider-button-right" onclick="scrollSlider(1)">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!--Feature Section-->
+    <h2 class="section-title">What We Bring to the Table</h2>
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="./Image/Features/f1.png" alt="freeshipping">
+            <h6>Free Shipping</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="./Image/Features/f2.png" alt="freeshipping">
+            <h6>Online Order</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="./Image/Features/f3.png" alt="freeshipping">
+            <h6>Save Money</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="./Image/Features/f4.png" alt="freeshipping">
+            <h6>Promotions</h6>
+        </div>
+
+
+        <div class="fe-box">
+            <img src="./Image/Features/f5.png" alt="freeshipping">
+            <h6>Happy Sale</h6>
+        </div>
+
+
+        <div class="fe-box">
+            <img src="./Image/Features/f6.png" alt="freeshipping">
+            <h6>24/7 Support</h6>
+        </div>
+    </section>    
+
+    <!--Style Spotlight Section-->
+
+    <section class="spotlight-section">
+        <h1>Style Spolight</h1>
+
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="./Image/Products/product1.png" alt="bohocasual" width="150px" height="150px">
+                <h2>Boho Vintage Casual Shirt</h2>
+                <p>$79.99</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+
+           <!-- Product 2 -->
+            <div class="product-card">
+                <img src="./Image/Products/product2.png" alt="Regalcasual" width="150px" height="150px">
+                <h2>Regal Paisley Button-Up Shirt</h2>
+                <p>$99.99</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="./Image/Products/product3.png" alt="tribecasual" width="150px" height="150px">
+                <h2>Tribal Short Sleeve Shirt</h2>
+                <p>$120.99</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+
+             <!-- Product 4 -->
+             <div class="product-card">
+                <img src="./Image/Products/product4.png" alt="floralcasual" width="150px" height="150px">
+                <h2>Floral Swirl Designer Shirt</h2>
+                <p>$89.99</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+
+             <!-- Product 5-->
+             <div class="product-card">
+                <img src="./Image/Products/produc5.png" alt="classiccasual" width="150px" height="150px">
+                <h2>Classic Casual Shirt</h2>
+                <p>$109.99</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+    </section>
+   
+    <!--Banner Section-->
+    <section id="banner">
+        <h1>Discover Your Signature Look</h1>
+        <h4>Trendy. Timeless. Yours</h4>
+        <h2>🔥Limited Time Offer: <em>Flat 20% OFF</em> on New Arrivals!🔥</h2>
+        <button class="normal">Explore Now</button>
+    </section>
+
+        <!--Another Banner Section-->
+        <section id="sm-banner" class="section-p1">
+            <div class="banner-Box">
+                <h4>Treat Yourself to Timeless Fashion!</h4>
+                <h2>Buy One, Get One Free - Only for You!</h2>
+                <span>Incredible Savings on Our Classic Dress Collection!</span>
+                <button class="white">See What's New</button>
+            </div>
+
+            <div class="banner-Box banner-Box2">
+                <h4>Unwrap the Ultimate Style!</h4>
+                <h2>Your wardrobe with our exclusive collection!</h2>
+                <span>Your perfect dress awaits, at unbeatable prices!</span>
+                <button class="white">Unveil the Styles</button>
+            </div>
+        </section>
+
+        <!--Banner Three Section-->
+        <section id="banner3">
+            <div class="banner-Box">
+                <h2>Unveil Elegance with Every Outfit!</h2>
+                <h3>SEASONAL - 50% OFF</h3>
+            </div>  
+            <div class="banner-Box banner-Box2">
+                <h2>Timeless Fashion for Every Occasion!</h2>
+                <h3>Find Your Look</h3>
+            </div>    
+            <div class="banner-Box banner-Box3">
+                <h2>Luxury Fashion for the Modern Woman</h2>
+                <h3>Shop the collection</h3>
+            </div>      
+        </section>
+
+        <!--Trendora NewsLetter Section-->
+        <section class="newsletter-section">
+            <h1>Stay Stylish, Stay Ahead!</h1>
+            <p>Get exclusive fashion drops, styling tips, and special offers—straight to your inbox!✨</p>
+            <input type="email" placeholder="Enter your email address" class="newsletter-input">
+            <br>
+            <button class="newsletter-btn">Join the Trendsetters</button>
+        </section>
+
+        <!--Trendora Fashion Store Footer Section-->
+        <footer class="footer">
+            <div class="footer-content">
+                <h1>Stay Connected with <span>Trendora</span></h1>
+                <p>Trendora is more than just fashion—it's a lifestyle. We bring you high-quality, trendy, and sustainable fashion that empowers self-expression</p>
+                <p>Email us: <a href="mailto:support@trendora.com">support@trendora.com</a></p>
+
+                <div class="footer-links">
+                    <a href="#">About Us</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                    <a href="#">FAQ</a>
+                </div>
+    
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+
+        <p class="footer-copy">© 2025 Trendora. Elevate Your Style, Sustainably.</p>
+    </div>
+</footer>
+<!-- JavaScript File (Before Closing Body Tag) -->
+<script src="index.js"></script>
+</body>
+</html>
