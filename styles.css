@@ -1728,4 +1728,6 @@ p {
     .filter-form button {
         width: auto;
     }
+    .filter-section {
+        display: none;
 }
